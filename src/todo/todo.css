@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+
+*{
+    box-sizing: border-box;
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+}
+
+h2{
+    font-weight: 900;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #308ac7;
+    height: 100%;
+    padding: 50px;
+}
+
+label{
+    font-size: 25px;
+}
+
+.addbtn{
+    margin-left: 45%;
+    width: 10%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+
+input{
+    width: 95%;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 900;
+
+
+}
+
+input:hover{
+    background-color: darkgray;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+.initial{
+    border: 2px solid black;
+    padding: 40px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #d5e3d7;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.mapdiv{
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content:left;
+}
+.insidemap{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    text-align: left;
+    background-color: #d5e3d7;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 400px;
+    height: 150px;
+
+}
+
+.edtdltbtn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.edtdltbtn button{
+    border-radius: 5px;
+    padding: 5px;
+}
+@media screen and (max-width: 600px){
+    .addbtn{
+        margin-left: 45%;
+        width: 20%;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: darkcyan;
+    }
+    .insidemap{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        margin-left: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+        text-align: left;
+        background-color: #d5e3d7;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        width: 300px;
+        height: 150px;
+    
+    }
+    
+}
+    
